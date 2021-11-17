@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: aks8-project
+  name: ask8-project
   namespace: argocd
 spec:
   clusterResourceWhitelist:
