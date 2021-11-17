@@ -10,7 +10,7 @@ spec:
   project: ask8-project
   source:
     path: wikichart/
-    repoURL: https://github.com/askasp/ask8s_chars.git
+    repoURL: https://github.com/askasp/ask8s_charts.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
