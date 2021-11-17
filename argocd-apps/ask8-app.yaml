@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: wiki-app
+  namespace: argocd
+spec:
+  destination:
+    namespace: ask8-apps
+    server: https://kubernetes.default.svc
+  project: ask8-project
+  source:
+    path: wikichart/
+    repoURL: https://github.com/askasp/ask8s_chars.git
+    targetRevision: HEAD
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
