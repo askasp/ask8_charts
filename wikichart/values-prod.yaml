@@ -1,4 +1,3 @@
-
 ingress:
   enabled: true
   className: ""
@@ -6,6 +5,7 @@ ingress:
 #      kubernetes.io/ingress.class: nginx
       cert-manager.io/cluster-issuer: letsencrypt-prod-2
       kubernetes.io/tls-acme: "true"
+
   hosts:
    - host: wiki.akselerasjon.no
      paths:
