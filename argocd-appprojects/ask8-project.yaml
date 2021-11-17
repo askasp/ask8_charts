@@ -8,7 +8,7 @@ spec:
   - group: '*'
     kind: '*'
   destinations:
-  - namespace: ask8-project
+  - namespace: ask8-apps
     server: https://kubernetes.default.svc
   orphanedResources:
     warn: false
