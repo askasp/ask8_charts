@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
     chart: netdata
-    repoURL: netdata https://netdata.github.io/helmchart
+    repoURL: https://netdata.github.io/helmchart
     targetRevision: 3.7.5
   syncPolicy:
     automated:
